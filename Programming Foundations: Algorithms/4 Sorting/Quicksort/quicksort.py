@@ -30,7 +30,7 @@ def partition(datavalues, first, last):
 
         # TODO: advance the upper index
         while upper >= lower and datavalues[upper] >= pivotvalue:
-            lower -= 1
+            upper -= 1
 
         # TODO: if the two indexes cross, we have found the split point
         if upper < lower:
