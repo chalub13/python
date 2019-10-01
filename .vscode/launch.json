@@ -9,7 +9,12 @@
       "type": "python",
       "request": "launch",
       "program": "${file}",
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "cwd": "",
+      "stopOnEntry": true,
+      "pythonPath": "${config:python.pythonPath}",
+      "env": {},
+      "envFile": "${workspaceFolder}/.env"
     }
   ]
 }
