@@ -11,7 +11,7 @@
       "program": "${file}",
       "console": "integratedTerminal",
       "cwd": "",
-      "stopOnEntry": true,
+      "stopOnEntry": false,
       "pythonPath": "${config:python.pythonPath}",
       "env": {},
       "envFile": "${workspaceFolder}/.env"
