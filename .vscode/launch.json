@@ -14,7 +14,8 @@
       "stopOnEntry": false,
       "pythonPath": "${config:python.pythonPath}",
       "env": {},
-      "envFile": "${workspaceFolder}/.env"
+      "envFile": "${workspaceFolder}/.env",
+      "args": ["4", "2", "3"]
     }
   ]
 }
